@@ -1,48 +1,46 @@
-div.parent {
-    width:400px;
-    height:400px;
-    position:fixed;
-}
-
-button.go {
+.go {
     min-width:100px;
     position:fixed;
     top:260px;
     left:20px;
 }
 
-div.square1 {
+.square1 {
     left:20px;
     top:20px;
     height:100px;
     width:100px;
-    position:fixed;
-    background-color:blue;
+    position: fixed;
+    background-color: blue;
+  transition: 0.5s;
 }
 
-div.square2 {
+.square2 {
     left:150px;
     top:20px;
     height:100px;
     width:100px;
     position:fixed;
     background-color:red;
+  transition: 0.5s;
 }
 
-div.square3 {
+.square3 {
     left:150px;
     top:150px;
     height:100px;
     width:100px;
     position:fixed;
     background-color:yellow;
+  transition: 0.5s;
 }
 
-div.square4 {
+.square4 {
     left:20px;
     top:150px;
     height:100px;
     width:100px;
     position:fixed;
     background-color:green;
+    transition: 0.5s;
 }
