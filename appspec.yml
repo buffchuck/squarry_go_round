@@ -3,8 +3,10 @@ os: linux
 files:
   - source: squarry_go_round.html
     destination: /home/ec2-user/tomcat9/webapps/squarry-go-round
+file_exists_behavior: OVERWRITE
   - source: squarry_go_round.css
     destination: /home/ec2-user/tomcat9/webapps/squarry-go-round
+file_exists_behavior: OVERWRITE
   - source: squarry_go_round.js
     destination: /home/ec2-user/tomcat9/webapps/squarry-go-round
 file_exists_behavior: OVERWRITE
