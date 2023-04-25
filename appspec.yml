@@ -7,3 +7,4 @@ files:
     destination: /home/ec2-user/tomcat9/webapps/squarry-go-round
   - source: squarry_go_round.js
     destination: /home/ec2-user/tomcat9/webapps/squarry-go-round
+file_exists_behavior: OVERWRITE
